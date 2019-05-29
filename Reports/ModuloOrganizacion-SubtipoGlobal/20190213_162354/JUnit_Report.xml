@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ModuloOrganizacion-SubtipoGlobal" time="252" tests="5" failures="3" errors="0">
+   <testsuite name="ModuloOrganizacion-SubtipoGlobal" tests="5" failures="3" errors="0" time="252" timestamp="2019-02-13 16:23:56" hostname="Jessica - INFORMATICA" id="Test Suites/ModuloOrganizacion-SubtipoGlobal">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Jessica\\Katalon Studio\\TallerHenao\\Reports\\ModuloOrganizacion-SubtipoGlobal\\20190213_162354"/>
+         <property name="logFiles" value="C:\\Users\\Jessica\\Katalon Studio\\TallerHenao\\Reports\\ModuloOrganizacion-SubtipoGlobal\\20190213_162354\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Jessica\\Katalon Studio\\TallerHenao\\Reports\\ModuloOrganizacion-SubtipoGlobal\\20190213_162354\\1550093169835.png, C:\\Users\\Jessica\\Katalon Studio\\TallerHenao\\Reports\\ModuloOrganizacion-SubtipoGlobal\\20190213_162354\\1550093208995.png, C:\\Users\\Jessica\\Katalon Studio\\TallerHenao\\Reports\\ModuloOrganizacion-SubtipoGlobal\\20190213_162354\\1550093258115.png"/>
+         <property name="hostName" value="Jessica - INFORMATICA"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.96"/>
+         <property name="hostAddress" value="192.168.0.106"/>
+         <property name="sessionId" value="3e86e8773148a5cc0c6611fe839eba8a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal" classname="Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal" status="PASSED">
+         <system-out><![CDATA[2019-02-13 16:23:56 - [TEST_CASE][PASSED] - Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal: Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal
+
+2019-02-13 16:23:57 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-13 16:23:57 - [TEST_CASE][PASSED] - Test Cases/Login/Logiin: Test Cases/Login/Logiin
+
+2019-02-13 16:23:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-13 16:24:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-13 16:24:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-13 16:24:10 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-13 16:24:10 - [TEST_STEP][PASSED] - setText: Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-13 16:24:10 - [MESSAGE][PASSED] - Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-13 16:24:10 - [TEST_STEP][PASSED] - setText: Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-13 16:24:10 - [MESSAGE][PASSED] - Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-13 16:24:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-13 16:24:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-13 16:24:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-13 16:24:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/btnModulos' is clicked on
+
+2019-02-13 16:24:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/btnModulos' is clicked on
+
+2019-02-13 16:24:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Organizacin' is clicked on
+
+2019-02-13 16:24:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Organizacin' is clicked on
+
+2019-02-13 16:24:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Subtipo global' is clicked on
+
+2019-02-13 16:24:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Subtipo global' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Organizaciones/Subtipo Global/Crear/Crear" classname="Test Cases/Organizaciones/Subtipo Global/Crear/Crear" status="PASSED">
+         <system-out><![CDATA[2019-02-13 16:24:17 - [TEST_CASE][PASSED] - Test Cases/Organizaciones/Subtipo Global/Crear/Crear: Test Cases/Organizaciones/Subtipo Global/Crear/Crear
+
+2019-02-13 16:24:17 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal' successfully
+
+2019-02-13 16:24:17 - [TEST_CASE][PASSED] - Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal: Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal
+
+2019-02-13 16:24:17 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-13 16:24:17 - [TEST_CASE][PASSED] - Test Cases/Login/Logiin: Test Cases/Login/Logiin
+
+2019-02-13 16:24:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-13 16:24:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-13 16:24:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-13 16:24:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-13 16:24:27 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-13 16:24:27 - [TEST_STEP][PASSED] - setText: Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-13 16:24:27 - [MESSAGE][PASSED] - Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-13 16:24:27 - [TEST_STEP][PASSED] - setText: Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-13 16:24:27 - [MESSAGE][PASSED] - Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-13 16:24:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-13 16:24:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-13 16:24:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-13 16:24:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/btnModulos' is clicked on
+
+2019-02-13 16:24:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/btnModulos' is clicked on
+
+2019-02-13 16:24:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Organizacin' is clicked on
+
+2019-02-13 16:24:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Organizacin' is clicked on
+
+2019-02-13 16:24:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Subtipo global' is clicked on
+
+2019-02-13 16:24:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Subtipo global' is clicked on
+
+2019-02-13 16:24:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal' successfully
+
+2019-02-13 16:24:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_subtype' successfully
+
+2019-02-13 16:24:38 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_subtype' successfully
+
+2019-02-13 16:24:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/Crear/a_btn btn-primary btn-circle b' is clicked on
+
+2019-02-13 16:24:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/Crear/a_btn btn-primary btn-circle b' is clicked on
+
+2019-02-13 16:24:38 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Organizacion/Subtipo Global/Crear/select_Evento con ProveedoresT'  using regular expression
+
+2019-02-13 16:24:38 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Organizacion/Subtipo Global/Crear/select_Evento con ProveedoresT'  using regular expression
+
+2019-02-13 16:24:38 - [TEST_STEP][PASSED] - setText: Text 'Prueba Suit 1' is set on object 'Object Repository/Organizacion/Subtipo Global/Crear/input_tq_global_subtypename'
+
+2019-02-13 16:24:39 - [MESSAGE][PASSED] - Text 'Prueba Suit 1' is set on object 'Object Repository/Organizacion/Subtipo Global/Crear/input_tq_global_subtypename'
+
+2019-02-13 16:24:39 - [TEST_STEP][PASSED] - setText: Text 'Esto es una prueba del submodulo de Subtipo global en el version suit.' is set on object 'Object Repository/Organizacion/Subtipo Global/Crear/textarea_tq_global_subtypenote'
+
+2019-02-13 16:24:39 - [MESSAGE][PASSED] - Text 'Esto es una prueba del submodulo de Subtipo global en el version suit.' is set on object 'Object Repository/Organizacion/Subtipo Global/Crear/textarea_tq_global_subtypenote'
+
+2019-02-13 16:24:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/Crear/input_btn btn-primary btn-sm' is clicked on
+
+2019-02-13 16:24:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/Crear/input_btn btn-primary btn-sm' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Organizaciones/Subtipo Global/Crear/CrearOtro" classname="Test Cases/Organizaciones/Subtipo Global/Crear/CrearOtro" status="PASSED">
+         <system-out><![CDATA[2019-02-13 16:24:39 - [TEST_CASE][PASSED] - Test Cases/Organizaciones/Subtipo Global/Crear/CrearOtro: Test Cases/Organizaciones/Subtipo Global/Crear/CrearOtro
+
+2019-02-13 16:24:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal' successfully
+
+2019-02-13 16:24:40 - [TEST_CASE][PASSED] - Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal: Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal
+
+2019-02-13 16:24:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-13 16:24:40 - [TEST_CASE][PASSED] - Test Cases/Login/Logiin: Test Cases/Login/Logiin
+
+2019-02-13 16:24:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-13 16:24:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-13 16:24:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-13 16:24:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-13 16:24:49 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-13 16:24:49 - [TEST_STEP][PASSED] - setText: Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-13 16:24:49 - [MESSAGE][PASSED] - Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-13 16:24:49 - [TEST_STEP][PASSED] - setText: Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-13 16:24:50 - [MESSAGE][PASSED] - Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-13 16:24:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-13 16:24:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-13 16:24:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-13 16:24:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/btnModulos' is clicked on
+
+2019-02-13 16:24:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/btnModulos' is clicked on
+
+2019-02-13 16:24:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Organizacin' is clicked on
+
+2019-02-13 16:24:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Organizacin' is clicked on
+
+2019-02-13 16:24:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Subtipo global' is clicked on
+
+2019-02-13 16:24:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Subtipo global' is clicked on
+
+2019-02-13 16:24:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal' successfully
+
+2019-02-13 16:24:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_subtype' successfully
+
+2019-02-13 16:24:59 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_subtype' successfully
+
+2019-02-13 16:24:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/Crear/a_btn btn-primary btn-circle b' is clicked on
+
+2019-02-13 16:24:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/Crear/a_btn btn-primary btn-circle b' is clicked on
+
+2019-02-13 16:24:59 - [TEST_STEP][PASSED] - setText: Text 'Subtipo prueba Suit' is set on object 'Object Repository/Organizacion/Subtipo Global/Crear/input_tq_global_subtypename'
+
+2019-02-13 16:25:01 - [MESSAGE][PASSED] - Text 'Subtipo prueba Suit' is set on object 'Object Repository/Organizacion/Subtipo Global/Crear/input_tq_global_subtypename'
+
+2019-02-13 16:25:01 - [TEST_STEP][PASSED] - setText: Text 'Se utiliza para conocer cual es el correcto funcionamiento ' is set on object 'Object Repository/Organizacion/Subtipo Global/Crear/textarea_tq_global_subtypenote'
+
+2019-02-13 16:25:01 - [MESSAGE][PASSED] - Text 'Se utiliza para conocer cual es el correcto funcionamiento ' is set on object 'Object Repository/Organizacion/Subtipo Global/Crear/textarea_tq_global_subtypenote'
+
+2019-02-13 16:25:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/Crear/input__save_and_add' is clicked on
+
+2019-02-13 16:25:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/Crear/input__save_and_add' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Organizaciones/Subtipo Global/Editar/EditarBtn" classname="Test Cases/Organizaciones/Subtipo Global/Editar/EditarBtn" status="PASSED">
+         <system-out><![CDATA[2019-02-13 16:25:01 - [TEST_CASE][PASSED] - Test Cases/Organizaciones/Subtipo Global/Editar/EditarBtn: Test Cases/Organizaciones/Subtipo Global/Editar/EditarBtn
+
+2019-02-13 16:25:01 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal' successfully
+
+2019-02-13 16:25:01 - [TEST_CASE][PASSED] - Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal: Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal
+
+2019-02-13 16:25:01 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-13 16:25:02 - [TEST_CASE][PASSED] - Test Cases/Login/Logiin: Test Cases/Login/Logiin
+
+2019-02-13 16:25:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-13 16:25:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-13 16:25:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-13 16:25:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-13 16:25:10 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-13 16:25:10 - [TEST_STEP][PASSED] - setText: Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-13 16:25:10 - [MESSAGE][PASSED] - Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-13 16:25:10 - [TEST_STEP][PASSED] - setText: Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-13 16:25:10 - [MESSAGE][PASSED] - Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-13 16:25:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-13 16:25:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-13 16:25:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-13 16:25:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/btnModulos' is clicked on
+
+2019-02-13 16:25:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/btnModulos' is clicked on
+
+2019-02-13 16:25:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Organizacin' is clicked on
+
+2019-02-13 16:25:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Organizacin' is clicked on
+
+2019-02-13 16:25:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Subtipo global' is clicked on
+
+2019-02-13 16:25:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Subtipo global' is clicked on
+
+2019-02-13 16:25:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal' successfully
+
+2019-02-13 16:25:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_subtype' successfully
+
+2019-02-13 16:25:19 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_subtype' successfully
+
+2019-02-13 16:25:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/Editar/Editar2/input_items' is clicked on
+
+2019-02-13 16:25:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/Editar/Editar2/input_items' is clicked on
+
+2019-02-13 16:25:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/Editar/Editar2/a_btn btn-primary btn-circle b' is clicked on
+
+2019-02-13 16:25:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/Editar/Editar2/a_btn btn-primary btn-circle b' is clicked on
+
+2019-02-13 16:25:20 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Organizacion/Subtipo Global/Editar/Editar2/select_Evento con ProveedoresT'  using regular expression
+
+2019-02-13 16:25:20 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Organizacion/Subtipo Global/Editar/Editar2/select_Evento con ProveedoresT'  using regular expression
+
+2019-02-13 16:25:20 - [TEST_STEP][PASSED] - setText: Text 'Calidosos' is set on object 'Object Repository/Organizacion/Subtipo Global/Editar/Editar2/input_tq_global_subtypename'
+
+2019-02-13 16:25:20 - [MESSAGE][PASSED] - Text 'Calidosos' is set on object 'Object Repository/Organizacion/Subtipo Global/Editar/Editar2/input_tq_global_subtypename'
+
+2019-02-13 16:25:20 - [TEST_STEP][PASSED] - setText: Text 'CLS' is set on object 'Object Repository/Organizacion/Subtipo Global/Editar/Editar2/input_tq_global_subtypeabbr'
+
+2019-02-13 16:25:21 - [MESSAGE][PASSED] - Text 'CLS' is set on object 'Object Repository/Organizacion/Subtipo Global/Editar/Editar2/input_tq_global_subtypeabbr'
+
+2019-02-13 16:25:21 - [TEST_STEP][PASSED] - setText: Text 'Editando en modo Test Suit' is set on object 'Object Repository/Organizacion/Subtipo Global/Editar/Editar2/textarea_tq_global_subtypenote'
+
+2019-02-13 16:25:21 - [MESSAGE][PASSED] - Text 'Editando en modo Test Suit' is set on object 'Object Repository/Organizacion/Subtipo Global/Editar/Editar2/textarea_tq_global_subtypenote'
+
+2019-02-13 16:25:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/Editar/Editar2/input_btn btn-primary btn-sm' is clicked on
+
+2019-02-13 16:25:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/Editar/Editar2/input_btn btn-primary btn-sm' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Organizaciones/Subtipo Global/Editar/EditarFromShow" classname="Test Cases/Organizaciones/Subtipo Global/Editar/EditarFromShow" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Organizacion/Subtipo Global/Editar/Editar/a_Subtipo prueba dos' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Subtipo Global/Editar/Editar/a_Subtipo prueba dos' located by 'By.xpath: //a[@href = '/app_mysql.php/global_subtype/7/edit' and (text() = 'Registro parada' or . = 'Registro parada')]' not found)"/>
+         <system-out><![CDATA[2019-02-13 16:25:21 - [TEST_CASE][FAILED] - Test Cases/Organizaciones/Subtipo Global/Editar/EditarFromShow: Test Cases/Organizaciones/Subtipo Global/Editar/EditarFromShow FAILED because (of) Unable to click on object 'Object Repository/Organizacion/Subtipo Global/Editar/Editar/a_Subtipo prueba dos' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Subtipo Global/Editar/Editar/a_Subtipo prueba dos' located by 'By.xpath: //a[@href = '/app_mysql.php/global_subtype/7/edit' and (text() = 'Registro parada' or . = 'Registro parada')]' not found)
+
+2019-02-13 16:25:21 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal' successfully
+
+2019-02-13 16:25:21 - [TEST_CASE][PASSED] - Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal: Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal
+
+2019-02-13 16:25:21 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-13 16:25:21 - [TEST_CASE][PASSED] - Test Cases/Login/Logiin: Test Cases/Login/Logiin
+
+2019-02-13 16:25:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-13 16:25:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-13 16:25:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-13 16:25:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-13 16:25:31 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-13 16:25:31 - [TEST_STEP][PASSED] - setText: Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-13 16:25:31 - [MESSAGE][PASSED] - Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-13 16:25:31 - [TEST_STEP][PASSED] - setText: Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-13 16:25:31 - [MESSAGE][PASSED] - Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-13 16:25:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-13 16:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-13 16:25:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-13 16:25:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/btnModulos' is clicked on
+
+2019-02-13 16:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/btnModulos' is clicked on
+
+2019-02-13 16:25:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Organizacin' is clicked on
+
+2019-02-13 16:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Organizacin' is clicked on
+
+2019-02-13 16:25:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Subtipo global' is clicked on
+
+2019-02-13 16:25:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Subtipo global' is clicked on
+
+2019-02-13 16:25:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal' successfully
+
+2019-02-13 16:25:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_subtype' successfully
+
+2019-02-13 16:25:38 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_subtype' successfully
+
+2019-02-13 16:25:38 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Organizacion/Subtipo Global/Editar/Editar/a_Subtipo prueba dos' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Subtipo Global/Editar/Editar/a_Subtipo prueba dos' located by 'By.xpath: //a[@href = '/app_mysql.php/global_subtype/7/edit' and (text() = 'Registro parada' or . = 'Registro parada')]' not found)
+
+2019-02-13 16:26:10 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Organizacion/Subtipo Global/Editar/Editar/a_Subtipo prueba dos' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Subtipo Global/Editar/Editar/a_Subtipo prueba dos' located by 'By.xpath: //a[@href = '/app_mysql.php/global_subtype/7/edit' and (text() = 'Registro parada' or . = 'Registro parada')]' not found)
+[[ATTACHMENT|C:\\Users\\Jessica\\Katalon Studio\\TallerHenao\\Reports\\ModuloOrganizacion-SubtipoGlobal\\20190213_162354\\1550093169835.png]]]]></system-out>
+         <system-err><![CDATA[2019-02-13 16:25:21 - [TEST_CASE][FAILED] - Test Cases/Organizaciones/Subtipo Global/Editar/EditarFromShow: Test Cases/Organizaciones/Subtipo Global/Editar/EditarFromShow FAILED because (of) Unable to click on object 'Object Repository/Organizacion/Subtipo Global/Editar/Editar/a_Subtipo prueba dos' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Subtipo Global/Editar/Editar/a_Subtipo prueba dos' located by 'By.xpath: //a[@href = '/app_mysql.php/global_subtype/7/edit' and (text() = 'Registro parada' or . = 'Registro parada')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Organizaciones/Subtipo Global/Eliminar/Eliminar2" classname="Test Cases/Organizaciones/Subtipo Global/Eliminar/Eliminar2" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Organizacion/Subtipo Global/Eliminar/Eliminar2/Page_Daruma Software  Quality Manag/a_Registro parada' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Subtipo Global/Eliminar/Eliminar2/Page_Daruma Software  Quality Manag/a_Registro parada' located by 'By.xpath: //a[@href = '/app_mysql.php/global_subtype/7/edit' and (text() = 'Registro parada' or . = 'Registro parada')]' not found)"/>
+         <system-out><![CDATA[2019-02-13 16:26:10 - [TEST_CASE][FAILED] - Test Cases/Organizaciones/Subtipo Global/Eliminar/Eliminar2: Test Cases/Organizaciones/Subtipo Global/Eliminar/Eliminar2 FAILED because (of) Unable to click on object 'Object Repository/Organizacion/Subtipo Global/Eliminar/Eliminar2/Page_Daruma Software  Quality Manag/a_Registro parada' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Subtipo Global/Eliminar/Eliminar2/Page_Daruma Software  Quality Manag/a_Registro parada' located by 'By.xpath: //a[@href = '/app_mysql.php/global_subtype/7/edit' and (text() = 'Registro parada' or . = 'Registro parada')]' not found)
+
+2019-02-13 16:26:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-13 16:26:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-13 16:26:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-13 16:26:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_subtype' successfully
+
+2019-02-13 16:26:18 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_subtype' successfully
+
+2019-02-13 16:26:18 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Organizacion/Subtipo Global/Eliminar/Eliminar2/Page_Daruma Software  Quality Manag/a_Registro parada' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Subtipo Global/Eliminar/Eliminar2/Page_Daruma Software  Quality Manag/a_Registro parada' located by 'By.xpath: //a[@href = '/app_mysql.php/global_subtype/7/edit' and (text() = 'Registro parada' or . = 'Registro parada')]' not found)
+
+2019-02-13 16:26:49 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Organizacion/Subtipo Global/Eliminar/Eliminar2/Page_Daruma Software  Quality Manag/a_Registro parada' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Subtipo Global/Eliminar/Eliminar2/Page_Daruma Software  Quality Manag/a_Registro parada' located by 'By.xpath: //a[@href = '/app_mysql.php/global_subtype/7/edit' and (text() = 'Registro parada' or . = 'Registro parada')]' not found)
+[[ATTACHMENT|C:\\Users\\Jessica\\Katalon Studio\\TallerHenao\\Reports\\ModuloOrganizacion-SubtipoGlobal\\20190213_162354\\1550093208995.png]]]]></system-out>
+         <system-err><![CDATA[2019-02-13 16:26:10 - [TEST_CASE][FAILED] - Test Cases/Organizaciones/Subtipo Global/Eliminar/Eliminar2: Test Cases/Organizaciones/Subtipo Global/Eliminar/Eliminar2 FAILED because (of) Unable to click on object 'Object Repository/Organizacion/Subtipo Global/Eliminar/Eliminar2/Page_Daruma Software  Quality Manag/a_Registro parada' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Subtipo Global/Eliminar/Eliminar2/Page_Daruma Software  Quality Manag/a_Registro parada' located by 'By.xpath: //a[@href = '/app_mysql.php/global_subtype/7/edit' and (text() = 'Registro parada' or . = 'Registro parada')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Organizaciones/Subtipo Global/Eliminar/Eliminar" classname="Test Cases/Organizaciones/Subtipo Global/Eliminar/Eliminar" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Organizacion/Subtipo Global/Eliminar/input_items' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Subtipo Global/Eliminar/input_items' located by 'By.xpath: //input[@type = 'checkbox' and @name = 'items[]' and @id = 'items_6
+']' not found)"/>
+         <system-out><![CDATA[2019-02-13 16:26:49 - [TEST_CASE][FAILED] - Test Cases/Organizaciones/Subtipo Global/Eliminar/Eliminar: Test Cases/Organizaciones/Subtipo Global/Eliminar/Eliminar FAILED because (of) Unable to click on object 'Object Repository/Organizacion/Subtipo Global/Eliminar/input_items' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Subtipo Global/Eliminar/input_items' located by 'By.xpath: //input[@type = 'checkbox' and @name = 'items[]' and @id = 'items_6
+']' not found)
+
+2019-02-13 16:26:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal' successfully
+
+2019-02-13 16:26:49 - [TEST_CASE][PASSED] - Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal: Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal
+
+2019-02-13 16:26:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-13 16:26:49 - [TEST_CASE][PASSED] - Test Cases/Login/Logiin: Test Cases/Login/Logiin
+
+2019-02-13 16:26:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-13 16:26:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-13 16:26:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-13 16:26:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-13 16:26:57 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-13 16:26:57 - [TEST_STEP][PASSED] - setText: Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-13 16:26:57 - [MESSAGE][PASSED] - Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-13 16:26:57 - [TEST_STEP][PASSED] - setText: Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-13 16:26:58 - [MESSAGE][PASSED] - Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-13 16:26:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-13 16:27:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-13 16:27:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-13 16:27:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/btnModulos' is clicked on
+
+2019-02-13 16:27:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/btnModulos' is clicked on
+
+2019-02-13 16:27:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Organizacin' is clicked on
+
+2019-02-13 16:27:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Organizacin' is clicked on
+
+2019-02-13 16:27:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Subtipo global' is clicked on
+
+2019-02-13 16:27:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Subtipo global' is clicked on
+
+2019-02-13 16:27:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal' successfully
+
+2019-02-13 16:27:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_subtype' successfully
+
+2019-02-13 16:27:07 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_subtype' successfully
+
+2019-02-13 16:27:07 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Organizacion/Subtipo Global/Eliminar/input_items' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Subtipo Global/Eliminar/input_items' located by 'By.xpath: //input[@type = 'checkbox' and @name = 'items[]' and @id = 'items_6
+']' not found)
+
+2019-02-13 16:27:38 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Organizacion/Subtipo Global/Eliminar/input_items' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Subtipo Global/Eliminar/input_items' located by 'By.xpath: //input[@type = 'checkbox' and @name = 'items[]' and @id = 'items_6
+']' not found)
+[[ATTACHMENT|C:\\Users\\Jessica\\Katalon Studio\\TallerHenao\\Reports\\ModuloOrganizacion-SubtipoGlobal\\20190213_162354\\1550093258115.png]]]]></system-out>
+         <system-err><![CDATA[2019-02-13 16:26:49 - [TEST_CASE][FAILED] - Test Cases/Organizaciones/Subtipo Global/Eliminar/Eliminar: Test Cases/Organizaciones/Subtipo Global/Eliminar/Eliminar FAILED because (of) Unable to click on object 'Object Repository/Organizacion/Subtipo Global/Eliminar/input_items' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Subtipo Global/Eliminar/input_items' located by 'By.xpath: //input[@type = 'checkbox' and @name = 'items[]' and @id = 'items_6
+']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Organizaciones/Subtipo Global/Filtro/Filtrar" classname="Test Cases/Organizaciones/Subtipo Global/Filtro/Filtrar" status="PASSED">
+         <system-out><![CDATA[2019-02-13 16:27:38 - [TEST_CASE][PASSED] - Test Cases/Organizaciones/Subtipo Global/Filtro/Filtrar: Test Cases/Organizaciones/Subtipo Global/Filtro/Filtrar
+
+2019-02-13 16:27:38 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal' successfully
+
+2019-02-13 16:27:38 - [TEST_CASE][PASSED] - Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal: Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal
+
+2019-02-13 16:27:38 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-13 16:27:38 - [TEST_CASE][PASSED] - Test Cases/Login/Logiin: Test Cases/Login/Logiin
+
+2019-02-13 16:27:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-13 16:27:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-13 16:27:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-13 16:27:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-13 16:27:47 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-13 16:27:47 - [TEST_STEP][PASSED] - setText: Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-13 16:27:48 - [MESSAGE][PASSED] - Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-13 16:27:48 - [TEST_STEP][PASSED] - setText: Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-13 16:27:48 - [MESSAGE][PASSED] - Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-13 16:27:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-13 16:27:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-13 16:27:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-13 16:27:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/btnModulos' is clicked on
+
+2019-02-13 16:27:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/btnModulos' is clicked on
+
+2019-02-13 16:27:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Organizacin' is clicked on
+
+2019-02-13 16:27:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Organizacin' is clicked on
+
+2019-02-13 16:27:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Subtipo global' is clicked on
+
+2019-02-13 16:27:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/IngresarSubtipo/a_Subtipo global' is clicked on
+
+2019-02-13 16:27:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Organizaciones/Subtipo Global/IngresoModuloSubtipoGlobal' successfully
+
+2019-02-13 16:27:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_subtype' successfully
+
+2019-02-13 16:27:54 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_subtype' successfully
+
+2019-02-13 16:27:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/Filtro/Page_Daruma Software  Quality Manag/path' is clicked on
+
+2019-02-13 16:27:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/Filtro/Page_Daruma Software  Quality Manag/path' is clicked on
+
+2019-02-13 16:27:54 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Organizacion/Subtipo Global/Filtro/Page_Daruma Software  Quality Manag/select_Tipo de evento con equi'  using regular expression
+
+2019-02-13 16:27:54 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Organizacion/Subtipo Global/Filtro/Page_Daruma Software  Quality Manag/select_Tipo de evento con equi'  using regular expression
+
+2019-02-13 16:27:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/Filtro/Page_Daruma Software  Quality Manag/input_btn btn-primary btn-sm' is clicked on
+
+2019-02-13 16:27:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/Filtro/Page_Daruma Software  Quality Manag/input_btn btn-primary btn-sm' is clicked on
+
+2019-02-13 16:27:54 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2019-02-13 16:28:04 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-13 16:28:04 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$('body > div.wrapper > div.content-filter > a').click();' successfully
+
+2019-02-13 16:28:04 - [MESSAGE][PASSED] - Execute JavaScript '$('body > div.wrapper > div.content-filter > a').click();' successfully
+
+2019-02-13 16:28:04 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-02-13 16:28:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-13 16:28:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Subtipo Global/Filtro/Page_Daruma Software  Quality Manag/a_reestablecer' is clicked on
+
+2019-02-13 16:28:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Subtipo Global/Filtro/Page_Daruma Software  Quality Manag/a_reestablecer' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-13 16:23:56 - [TEST_SUITE][FAILED] - ModuloOrganizacion-SubtipoGlobal: Test Cases/Organizaciones/Subtipo Global/Editar/EditarFromShow FAILED because (of) Unable to click on object 'Object Repository/Organizacion/Subtipo Global/Editar/Editar/a_Subtipo prueba dos' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Subtipo Global/Editar/Editar/a_Subtipo prueba dos' located by 'By.xpath: //a[@href = '/app_mysql.php/global_subtype/7/edit' and (text() = 'Registro parada' or . = 'Registro parada')]' not found)]]></system-out>
+      <system-err><![CDATA[2019-02-13 16:23:56 - [TEST_SUITE][FAILED] - ModuloOrganizacion-SubtipoGlobal: Test Cases/Organizaciones/Subtipo Global/Editar/EditarFromShow FAILED because (of) Unable to click on object 'Object Repository/Organizacion/Subtipo Global/Editar/Editar/a_Subtipo prueba dos' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Subtipo Global/Editar/Editar/a_Subtipo prueba dos' located by 'By.xpath: //a[@href = '/app_mysql.php/global_subtype/7/edit' and (text() = 'Registro parada' or . = 'Registro parada')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

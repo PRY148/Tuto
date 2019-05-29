@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Clase Global" time="136" tests="7" failures="0" errors="0">
+   <testsuite name="Clase Global" tests="7" failures="0" errors="0" time="136" timestamp="2019-02-14 16:10:12" hostname="Jessica - INFORMATICA" id="Test Suites/Clase Global">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Jessica\\Katalon Studio\\TallerHenao\\Reports\\Clase Global\\20190214_161009"/>
+         <property name="logFiles" value="C:\\Users\\Jessica\\Katalon Studio\\TallerHenao\\Reports\\Clase Global\\20190214_161009\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Jessica - INFORMATICA"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.109"/>
+         <property name="hostAddress" value="192.168.0.106"/>
+         <property name="sessionId" value="faa29bbd2870ce9ccd9f315af1e830c7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Clase Global/IngresarModulo/IngresoModulo" classname="Test Cases/Clase Global/IngresarModulo/IngresoModulo" status="PASSED">
+         <system-out><![CDATA[2019-02-14 16:10:12 - [TEST_CASE][PASSED] - Test Cases/Clase Global/IngresarModulo/IngresoModulo: Test Cases/Clase Global/IngresarModulo/IngresoModulo
+
+2019-02-14 16:10:13 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-14 16:10:13 - [TEST_CASE][PASSED] - Test Cases/Login/Logiin: Test Cases/Login/Logiin
+
+2019-02-14 16:10:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-14 16:10:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-14 16:10:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:10:22 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:10:22 - [TEST_STEP][PASSED] - setText: Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-14 16:10:22 - [MESSAGE][PASSED] - Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-14 16:10:22 - [TEST_STEP][PASSED] - setText: Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-14 16:10:22 - [MESSAGE][PASSED] - Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-14 16:10:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-14 16:10:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-14 16:10:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-14 16:10:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:10:28 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:10:28 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$('body > div.wrapper > div.content-modules > a').click();' successfully
+
+2019-02-14 16:10:28 - [MESSAGE][PASSED] - Execute JavaScript '$('body > div.wrapper > div.content-modules > a').click();' successfully
+
+2019-02-14 16:10:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/a_Organizacin' is clicked on
+
+2019-02-14 16:10:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/a_Organizacin' is clicked on
+
+2019-02-14 16:10:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/a_Clase global' is clicked on
+
+2019-02-14 16:10:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/a_Clase global' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Clase Global/Crear/Crear" classname="Test Cases/Clase Global/Crear/Crear" status="PASSED">
+         <system-out><![CDATA[2019-02-14 16:10:29 - [TEST_CASE][PASSED] - Test Cases/Clase Global/Crear/Crear: Test Cases/Clase Global/Crear/Crear
+
+2019-02-14 16:10:30 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Clase Global/IngresarModulo/IngresoModulo' successfully
+
+2019-02-14 16:10:30 - [TEST_CASE][PASSED] - Test Cases/Clase Global/IngresarModulo/IngresoModulo: Test Cases/Clase Global/IngresarModulo/IngresoModulo
+
+2019-02-14 16:10:30 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-14 16:10:30 - [TEST_CASE][PASSED] - Test Cases/Login/Logiin: Test Cases/Login/Logiin
+
+2019-02-14 16:10:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-14 16:10:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-14 16:10:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-14 16:10:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:10:39 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:10:39 - [TEST_STEP][PASSED] - setText: Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-14 16:10:40 - [MESSAGE][PASSED] - Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-14 16:10:40 - [TEST_STEP][PASSED] - setText: Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-14 16:10:40 - [MESSAGE][PASSED] - Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-14 16:10:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-14 16:10:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-14 16:10:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-14 16:10:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:10:44 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:10:44 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$('body > div.wrapper > div.content-modules > a').click();' successfully
+
+2019-02-14 16:10:44 - [MESSAGE][PASSED] - Execute JavaScript '$('body > div.wrapper > div.content-modules > a').click();' successfully
+
+2019-02-14 16:10:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/a_Organizacin' is clicked on
+
+2019-02-14 16:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/a_Organizacin' is clicked on
+
+2019-02-14 16:10:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/a_Clase global' is clicked on
+
+2019-02-14 16:10:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/a_Clase global' is clicked on
+
+2019-02-14 16:10:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Clase Global/IngresarModulo/IngresoModulo' successfully
+
+2019-02-14 16:10:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_class' successfully
+
+2019-02-14 16:10:48 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_class' successfully
+
+2019-02-14 16:10:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/Crear/a_btn btn-primary btn-circle b' is clicked on
+
+2019-02-14 16:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/Crear/a_btn btn-primary btn-circle b' is clicked on
+
+2019-02-14 16:10:48 - [TEST_STEP][PASSED] - setText: Text 'Prueba Test Case 21' is set on object 'Object Repository/Organizacion/Clase Global/Crear/input_tq_global_classname'
+
+2019-02-14 16:10:49 - [MESSAGE][PASSED] - Text 'Prueba Test Case 21' is set on object 'Object Repository/Organizacion/Clase Global/Crear/input_tq_global_classname'
+
+2019-02-14 16:10:49 - [TEST_STEP][PASSED] - setText: Text 'Esto es una prueba de un modulo' is set on object 'Object Repository/Organizacion/Clase Global/Crear/textarea_tq_global_classnotes'
+
+2019-02-14 16:10:49 - [MESSAGE][PASSED] - Text 'Esto es una prueba de un modulo' is set on object 'Object Repository/Organizacion/Clase Global/Crear/textarea_tq_global_classnotes'
+
+2019-02-14 16:10:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/Crear/input_btn btn-primary btn-sm' is clicked on
+
+2019-02-14 16:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/Crear/input_btn btn-primary btn-sm' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Clase Global/Crear/CrearOtro" classname="Test Cases/Clase Global/Crear/CrearOtro" status="PASSED">
+         <system-out><![CDATA[2019-02-14 16:10:49 - [TEST_CASE][PASSED] - Test Cases/Clase Global/Crear/CrearOtro: Test Cases/Clase Global/Crear/CrearOtro
+
+2019-02-14 16:10:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Clase Global/IngresarModulo/IngresoModulo' successfully
+
+2019-02-14 16:10:49 - [TEST_CASE][PASSED] - Test Cases/Clase Global/IngresarModulo/IngresoModulo: Test Cases/Clase Global/IngresarModulo/IngresoModulo
+
+2019-02-14 16:10:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-14 16:10:49 - [TEST_CASE][PASSED] - Test Cases/Login/Logiin: Test Cases/Login/Logiin
+
+2019-02-14 16:10:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-14 16:10:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-14 16:10:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-14 16:10:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:10:57 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:10:57 - [TEST_STEP][PASSED] - setText: Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-14 16:10:58 - [MESSAGE][PASSED] - Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-14 16:10:58 - [TEST_STEP][PASSED] - setText: Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-14 16:10:58 - [MESSAGE][PASSED] - Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-14 16:10:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-14 16:11:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-14 16:11:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-14 16:11:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:11:03 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:11:03 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$('body > div.wrapper > div.content-modules > a').click();' successfully
+
+2019-02-14 16:11:03 - [MESSAGE][PASSED] - Execute JavaScript '$('body > div.wrapper > div.content-modules > a').click();' successfully
+
+2019-02-14 16:11:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/a_Organizacin' is clicked on
+
+2019-02-14 16:11:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/a_Organizacin' is clicked on
+
+2019-02-14 16:11:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/a_Clase global' is clicked on
+
+2019-02-14 16:11:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/a_Clase global' is clicked on
+
+2019-02-14 16:11:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Clase Global/IngresarModulo/IngresoModulo' successfully
+
+2019-02-14 16:11:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_class' successfully
+
+2019-02-14 16:11:06 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_class' successfully
+
+2019-02-14 16:11:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/Crear/Page_Daruma Software  Quality Manag/a_btn btn-primary btn-circle b' is clicked on
+
+2019-02-14 16:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/Crear/Page_Daruma Software  Quality Manag/a_btn btn-primary btn-circle b' is clicked on
+
+2019-02-14 16:11:06 - [TEST_STEP][PASSED] - setText: Text 'Prueba con otro mas' is set on object 'Object Repository/Organizacion/Clase Global/Crear/Page_Daruma Software  Quality Manag/input_tq_global_classname'
+
+2019-02-14 16:11:07 - [MESSAGE][PASSED] - Text 'Prueba con otro mas' is set on object 'Object Repository/Organizacion/Clase Global/Crear/Page_Daruma Software  Quality Manag/input_tq_global_classname'
+
+2019-02-14 16:11:07 - [TEST_STEP][PASSED] - setText: Text 'Una prueba donde...' is set on object 'Object Repository/Organizacion/Clase Global/Crear/Page_Daruma Software  Quality Manag/textarea_tq_global_classnotes'
+
+2019-02-14 16:11:07 - [MESSAGE][PASSED] - Text 'Una prueba donde...' is set on object 'Object Repository/Organizacion/Clase Global/Crear/Page_Daruma Software  Quality Manag/textarea_tq_global_classnotes'
+
+2019-02-14 16:11:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/Crear/Page_Daruma Software  Quality Manag/_save_and_add' is clicked on
+
+2019-02-14 16:11:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/Crear/Page_Daruma Software  Quality Manag/_save_and_add' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Clase Global/Editar/Editar" classname="Test Cases/Clase Global/Editar/Editar" status="PASSED">
+         <system-out><![CDATA[2019-02-14 16:11:07 - [TEST_CASE][PASSED] - Test Cases/Clase Global/Editar/Editar: Test Cases/Clase Global/Editar/Editar
+
+2019-02-14 16:11:07 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Clase Global/IngresarModulo/IngresoModulo' successfully
+
+2019-02-14 16:11:08 - [TEST_CASE][PASSED] - Test Cases/Clase Global/IngresarModulo/IngresoModulo: Test Cases/Clase Global/IngresarModulo/IngresoModulo
+
+2019-02-14 16:11:08 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-14 16:11:08 - [TEST_CASE][PASSED] - Test Cases/Login/Logiin: Test Cases/Login/Logiin
+
+2019-02-14 16:11:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-14 16:11:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-14 16:11:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-14 16:11:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:11:15 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:11:15 - [TEST_STEP][PASSED] - setText: Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-14 16:11:15 - [MESSAGE][PASSED] - Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-14 16:11:15 - [TEST_STEP][PASSED] - setText: Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-14 16:11:16 - [MESSAGE][PASSED] - Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-14 16:11:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-14 16:11:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-14 16:11:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-14 16:11:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:11:20 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:11:20 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$('body > div.wrapper > div.content-modules > a').click();' successfully
+
+2019-02-14 16:11:20 - [MESSAGE][PASSED] - Execute JavaScript '$('body > div.wrapper > div.content-modules > a').click();' successfully
+
+2019-02-14 16:11:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/a_Organizacin' is clicked on
+
+2019-02-14 16:11:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/a_Organizacin' is clicked on
+
+2019-02-14 16:11:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/a_Clase global' is clicked on
+
+2019-02-14 16:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/a_Clase global' is clicked on
+
+2019-02-14 16:11:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Clase Global/IngresarModulo/IngresoModulo' successfully
+
+2019-02-14 16:11:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_class' successfully
+
+2019-02-14 16:11:24 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_class' successfully
+
+2019-02-14 16:11:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/Editar/Page_Daruma Software  Quality Manag/input_items' is clicked on
+
+2019-02-14 16:11:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/Editar/Page_Daruma Software  Quality Manag/input_items' is clicked on
+
+2019-02-14 16:11:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/Editar/Page_Daruma Software  Quality Manag/a_btn btn-primary btn-circle b' is clicked on
+
+2019-02-14 16:11:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/Editar/Page_Daruma Software  Quality Manag/a_btn btn-primary btn-circle b' is clicked on
+
+2019-02-14 16:11:24 - [TEST_STEP][PASSED] - setText: Text 'Edicion de Registro 2' is set on object 'Object Repository/Organizacion/Clase Global/Editar/Page_/input_tq_global_classname'
+
+2019-02-14 16:11:25 - [MESSAGE][PASSED] - Text 'Edicion de Registro 2' is set on object 'Object Repository/Organizacion/Clase Global/Editar/Page_/input_tq_global_classname'
+
+2019-02-14 16:11:25 - [TEST_STEP][PASSED] - setText: Text 'Esto es una edicion para el Test case en una segunda version.' is set on object 'Object Repository/Organizacion/Clase Global/Editar/Page_/textarea_tq_global_classnotes'
+
+2019-02-14 16:11:25 - [MESSAGE][PASSED] - Text 'Esto es una edicion para el Test case en una segunda version.' is set on object 'Object Repository/Organizacion/Clase Global/Editar/Page_/textarea_tq_global_classnotes'
+
+2019-02-14 16:11:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/Editar/Page_Daruma Software  Quality Manag/input_btn btn-primary btn-sm' is clicked on
+
+2019-02-14 16:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/Editar/Page_Daruma Software  Quality Manag/input_btn btn-primary btn-sm' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Clase Global/Editar/EditarOtro" classname="Test Cases/Clase Global/Editar/EditarOtro" status="PASSED">
+         <system-out><![CDATA[2019-02-14 16:11:25 - [TEST_CASE][PASSED] - Test Cases/Clase Global/Editar/EditarOtro: Test Cases/Clase Global/Editar/EditarOtro
+
+2019-02-14 16:11:25 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Clase Global/IngresarModulo/IngresoModulo' successfully
+
+2019-02-14 16:11:25 - [TEST_CASE][PASSED] - Test Cases/Clase Global/IngresarModulo/IngresoModulo: Test Cases/Clase Global/IngresarModulo/IngresoModulo
+
+2019-02-14 16:11:25 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-14 16:11:25 - [TEST_CASE][PASSED] - Test Cases/Login/Logiin: Test Cases/Login/Logiin
+
+2019-02-14 16:11:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-14 16:11:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-14 16:11:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-14 16:11:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:11:34 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:11:34 - [TEST_STEP][PASSED] - setText: Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-14 16:11:34 - [MESSAGE][PASSED] - Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-14 16:11:34 - [TEST_STEP][PASSED] - setText: Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-14 16:11:34 - [MESSAGE][PASSED] - Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-14 16:11:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-14 16:11:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-14 16:11:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-14 16:11:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:11:39 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:11:39 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$('body > div.wrapper > div.content-modules > a').click();' successfully
+
+2019-02-14 16:11:39 - [MESSAGE][PASSED] - Execute JavaScript '$('body > div.wrapper > div.content-modules > a').click();' successfully
+
+2019-02-14 16:11:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/a_Organizacin' is clicked on
+
+2019-02-14 16:11:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/a_Organizacin' is clicked on
+
+2019-02-14 16:11:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/a_Clase global' is clicked on
+
+2019-02-14 16:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/a_Clase global' is clicked on
+
+2019-02-14 16:11:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Clase Global/IngresarModulo/IngresoModulo' successfully
+
+2019-02-14 16:11:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_class' successfully
+
+2019-02-14 16:11:42 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_class' successfully
+
+2019-02-14 16:11:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/Editar/Page_Daruma Software  Quality Manag (1)/a_Prueba Clase global' is clicked on
+
+2019-02-14 16:11:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/Editar/Page_Daruma Software  Quality Manag (1)/a_Prueba Clase global' is clicked on
+
+2019-02-14 16:11:43 - [TEST_STEP][PASSED] - setText: Text 'Edite este registro una vez mas' is set on object 'Object Repository/Organizacion/Clase Global/Editar/Page_ (1)/input_tq_global_classname'
+
+2019-02-14 16:11:43 - [MESSAGE][PASSED] - Text 'Edite este registro una vez mas' is set on object 'Object Repository/Organizacion/Clase Global/Editar/Page_ (1)/input_tq_global_classname'
+
+2019-02-14 16:11:43 - [TEST_STEP][PASSED] - setText: Text 'Edite esto, no te lo esperabas.' is set on object 'Object Repository/Organizacion/Clase Global/Editar/Page_ (1)/textarea_Esto es una prueba pa'
+
+2019-02-14 16:11:44 - [MESSAGE][PASSED] - Text 'Edite esto, no te lo esperabas.' is set on object 'Object Repository/Organizacion/Clase Global/Editar/Page_ (1)/textarea_Esto es una prueba pa'
+
+2019-02-14 16:11:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/Editar/Page_ (1)/input_btn btn-primary btn-sm' is clicked on
+
+2019-02-14 16:11:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/Editar/Page_ (1)/input_btn btn-primary btn-sm' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Clase Global/Eliminar/Eliminar" classname="Test Cases/Clase Global/Eliminar/Eliminar" status="PASSED">
+         <system-out><![CDATA[2019-02-14 16:11:44 - [TEST_CASE][PASSED] - Test Cases/Clase Global/Eliminar/Eliminar: Test Cases/Clase Global/Eliminar/Eliminar
+
+2019-02-14 16:11:44 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Clase Global/IngresarModulo/IngresoModulo' successfully
+
+2019-02-14 16:11:44 - [TEST_CASE][PASSED] - Test Cases/Clase Global/IngresarModulo/IngresoModulo: Test Cases/Clase Global/IngresarModulo/IngresoModulo
+
+2019-02-14 16:11:44 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-14 16:11:44 - [TEST_CASE][PASSED] - Test Cases/Login/Logiin: Test Cases/Login/Logiin
+
+2019-02-14 16:11:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-14 16:11:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-14 16:11:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-14 16:11:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:11:52 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:11:52 - [TEST_STEP][PASSED] - setText: Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-14 16:11:52 - [MESSAGE][PASSED] - Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-14 16:11:52 - [TEST_STEP][PASSED] - setText: Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-14 16:11:52 - [MESSAGE][PASSED] - Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-14 16:11:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-14 16:11:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-14 16:11:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-14 16:11:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:11:58 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:11:58 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$('body > div.wrapper > div.content-modules > a').click();' successfully
+
+2019-02-14 16:11:58 - [MESSAGE][PASSED] - Execute JavaScript '$('body > div.wrapper > div.content-modules > a').click();' successfully
+
+2019-02-14 16:11:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/a_Organizacin' is clicked on
+
+2019-02-14 16:11:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/a_Organizacin' is clicked on
+
+2019-02-14 16:11:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/a_Clase global' is clicked on
+
+2019-02-14 16:11:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/a_Clase global' is clicked on
+
+2019-02-14 16:11:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Clase Global/IngresarModulo/IngresoModulo' successfully
+
+2019-02-14 16:11:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_class' successfully
+
+2019-02-14 16:12:01 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_class' successfully
+
+2019-02-14 16:12:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/Eliminar/Page_Daruma Software  Quality Manag/input_items' is clicked on
+
+2019-02-14 16:12:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/Eliminar/Page_Daruma Software  Quality Manag/input_items' is clicked on
+
+2019-02-14 16:12:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/Eliminar/Page_Daruma Software  Quality Manag/a_btn btn-primary btn-circle b' is clicked on
+
+2019-02-14 16:12:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/Eliminar/Page_Daruma Software  Quality Manag/a_btn btn-primary btn-circle b' is clicked on
+
+2019-02-14 16:12:02 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2019-02-14 16:12:02 - [MESSAGE][PASSED] - Alert accepted]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Clase Global/Eliminar/EliminarOtro" classname="Test Cases/Clase Global/Eliminar/EliminarOtro" status="PASSED">
+         <system-out><![CDATA[2019-02-14 16:12:02 - [TEST_CASE][PASSED] - Test Cases/Clase Global/Eliminar/EliminarOtro: Test Cases/Clase Global/Eliminar/EliminarOtro
+
+2019-02-14 16:12:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Clase Global/IngresarModulo/IngresoModulo' successfully
+
+2019-02-14 16:12:02 - [TEST_CASE][PASSED] - Test Cases/Clase Global/IngresarModulo/IngresoModulo: Test Cases/Clase Global/IngresarModulo/IngresoModulo
+
+2019-02-14 16:12:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-14 16:12:02 - [TEST_CASE][PASSED] - Test Cases/Login/Logiin: Test Cases/Login/Logiin
+
+2019-02-14 16:12:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-14 16:12:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-14 16:12:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-14 16:12:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:12:13 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:12:13 - [TEST_STEP][PASSED] - setText: Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-14 16:12:14 - [MESSAGE][PASSED] - Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-14 16:12:14 - [TEST_STEP][PASSED] - setText: Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-14 16:12:14 - [MESSAGE][PASSED] - Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-14 16:12:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-14 16:12:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-14 16:12:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-14 16:12:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:12:20 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-14 16:12:20 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$('body > div.wrapper > div.content-modules > a').click();' successfully
+
+2019-02-14 16:12:20 - [MESSAGE][PASSED] - Execute JavaScript '$('body > div.wrapper > div.content-modules > a').click();' successfully
+
+2019-02-14 16:12:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/a_Organizacin' is clicked on
+
+2019-02-14 16:12:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/a_Organizacin' is clicked on
+
+2019-02-14 16:12:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/a_Clase global' is clicked on
+
+2019-02-14 16:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/a_Clase global' is clicked on
+
+2019-02-14 16:12:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Clase Global/IngresarModulo/IngresoModulo' successfully
+
+2019-02-14 16:12:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_class' successfully
+
+2019-02-14 16:12:26 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/global_class' successfully
+
+2019-02-14 16:12:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/Eliminar/Page_Daruma Software  Quality Manag (1)/a_Este otro tambien' is clicked on
+
+2019-02-14 16:12:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/Eliminar/Page_Daruma Software  Quality Manag (1)/a_Este otro tambien' is clicked on
+
+2019-02-14 16:12:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Clase Global/Eliminar/Page_/a_Eliminar' is clicked on
+
+2019-02-14 16:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Clase Global/Eliminar/Page_/a_Eliminar' is clicked on
+
+2019-02-14 16:12:28 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2019-02-14 16:12:28 - [MESSAGE][PASSED] - Alert accepted]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-14 16:10:12 - [TEST_SUITE][PASSED] - Clase Global: Test Cases/Clase Global/Eliminar/EliminarOtro]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

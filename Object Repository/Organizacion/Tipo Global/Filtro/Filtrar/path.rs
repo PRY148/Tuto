@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>098ab6cc-c10d-405d-9a37-3e5ad7940afb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[@class=&quot;tablesaw-enhanced&quot;]/body[@class=&quot;skin-dh fixed sidebar-mini pace-done&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;content-filter&quot;]/a[@class=&quot;btn-filter-fixed no-tipsy&quot;]/svg[@class=&quot;dui-svg-clip clip-filters&quot;]/path[1]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[2]/div[2]/a</value>
+   </webElementProperties>
+</WebElementEntity>

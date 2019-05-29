@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Submodulo Tipo Global" time="309" tests="3" failures="4" errors="0">
+   <testsuite name="Submodulo Tipo Global" tests="3" failures="4" errors="0" time="309" timestamp="2019-02-12 17:21:19" hostname="Jessica - INFORMATICA" id="Test Suites/Submodulo Tipo Global">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Jessica\\Katalon Studio\\TallerHenao\\Reports\\Submodulo Tipo Global\\20190212_172116"/>
+         <property name="logFiles" value="C:\\Users\\Jessica\\Katalon Studio\\TallerHenao\\Reports\\Submodulo Tipo Global\\20190212_172116\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Jessica\\Katalon Studio\\TallerHenao\\Reports\\Submodulo Tipo Global\\20190212_172116\\1550010151502.png, C:\\Users\\Jessica\\Katalon Studio\\TallerHenao\\Reports\\Submodulo Tipo Global\\20190212_172116\\1550010268463.png, C:\\Users\\Jessica\\Katalon Studio\\TallerHenao\\Reports\\Submodulo Tipo Global\\20190212_172116\\1550010328145.png, C:\\Users\\Jessica\\Katalon Studio\\TallerHenao\\Reports\\Submodulo Tipo Global\\20190212_172116\\1550010388117.png"/>
+         <property name="hostName" value="Jessica - INFORMATICA"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.0.106"/>
+         <property name="sessionId" value="a11e370ff4b3dfaf01e1737017f91928"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Login/Logiin" classname="Test Cases/Login/Logiin" status="PASSED">
+         <system-out><![CDATA[2019-02-12 17:21:19 - [TEST_CASE][PASSED] - Test Cases/Login/Logiin: Test Cases/Login/Logiin
+
+2019-02-12 17:21:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-12 17:21:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-12 17:21:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-12 17:21:29 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-12 17:21:29 - [TEST_STEP][PASSED] - setText: Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-12 17:21:29 - [MESSAGE][PASSED] - Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-12 17:21:29 - [TEST_STEP][PASSED] - setText: Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-12 17:21:29 - [MESSAGE][PASSED] - Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-12 17:21:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-12 17:21:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnIngresar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Organizaciones/IngresoModulo" classname="Test Cases/Organizaciones/IngresoModulo" status="PASSED">
+         <system-out><![CDATA[2019-02-12 17:21:32 - [TEST_CASE][PASSED] - Test Cases/Organizaciones/IngresoModulo: Test Cases/Organizaciones/IngresoModulo
+
+2019-02-12 17:21:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-12 17:21:34 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-12 17:21:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Page_Daruma Software  Quality Manag/btnModulos' is clicked on
+
+2019-02-12 17:21:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Page_Daruma Software  Quality Manag/btnModulos' is clicked on
+
+2019-02-12 17:21:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Page_Daruma Software  Quality Manag/a_Organizacin' is clicked on
+
+2019-02-12 17:21:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Page_Daruma Software  Quality Manag/a_Organizacin' is clicked on
+
+2019-02-12 17:21:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Page_/a_Tipo global' is clicked on
+
+2019-02-12 17:21:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Page_/a_Tipo global' is clicked on
+
+2019-02-12 17:21:36 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2019-02-12 17:21:46 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Organizaciones/Tipo Global/Crear" classname="Test Cases/Organizaciones/Tipo Global/Crear" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2019-02-12 17:21:46 - [TEST_CASE][FAILED] - Test Cases/Organizaciones/Tipo Global/Crear: Test Cases/Organizaciones/Tipo Global/Crear FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2019-02-12 17:21:46 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-12 17:21:47 - [TEST_CASE][PASSED] - Test Cases/Login/Logiin: Test Cases/Login/Logiin
+
+2019-02-12 17:21:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-12 17:21:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-12 17:21:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-12 17:21:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-12 17:21:55 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-12 17:21:55 - [TEST_STEP][PASSED] - setText: Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-12 17:21:55 - [MESSAGE][PASSED] - Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-12 17:21:55 - [TEST_STEP][PASSED] - setText: Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-12 17:21:56 - [MESSAGE][PASSED] - Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-12 17:21:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-12 17:21:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-12 17:21:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-12 17:21:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Organizaciones/IngresoModulo' successfully
+
+2019-02-12 17:21:58 - [TEST_CASE][PASSED] - Test Cases/Organizaciones/IngresoModulo: Test Cases/Organizaciones/IngresoModulo
+
+2019-02-12 17:21:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-12 17:22:00 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-12 17:22:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Page_Daruma Software  Quality Manag/btnModulos' is clicked on
+
+2019-02-12 17:22:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Page_Daruma Software  Quality Manag/btnModulos' is clicked on
+
+2019-02-12 17:22:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Page_Daruma Software  Quality Manag/a_Organizacin' is clicked on
+
+2019-02-12 17:22:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Page_Daruma Software  Quality Manag/a_Organizacin' is clicked on
+
+2019-02-12 17:22:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Page_/a_Tipo global' is clicked on
+
+2019-02-12 17:22:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Page_/a_Tipo global' is clicked on
+
+2019-02-12 17:22:02 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2019-02-12 17:22:12 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-12 17:22:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Organizaciones/IngresoModulo' successfully
+
+2019-02-12 17:22:12 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-02-12 17:22:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-12 17:22:15 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("a[href$='/app_mysql.php/accident/new ']").click();	' successfully
+
+2019-02-12 17:22:15 - [MESSAGE][PASSED] - Execute JavaScript '$("a[href$='/app_mysql.php/accident/new ']").click();	' successfully
+
+2019-02-12 17:22:15 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-02-12 17:22:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-12 17:22:18 - [TEST_STEP][PASSED] - setText: Text 'Prueba Automatizacion' is set on object 'Object Repository/Organizacion/Tipo Global/Crear y Crear Otro/Page_Daruma Software  Quality Manag/input_tq_global_typename'
+
+2019-02-12 17:22:18 - [MESSAGE][PASSED] - Text 'Prueba Automatizacion' is set on object 'Object Repository/Organizacion/Tipo Global/Crear y Crear Otro/Page_Daruma Software  Quality Manag/input_tq_global_typename'
+
+2019-02-12 17:22:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-02-12 17:22:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-12 17:22:21 - [TEST_STEP][PASSED] - setText: Text 'PAI' is set on object 'Object Repository/Organizacion/Tipo Global/Crear y Crear Otro/Page_Daruma Software  Quality Manag/input_tq_global_typeabbr'
+
+2019-02-12 17:22:22 - [MESSAGE][PASSED] - Text 'PAI' is set on object 'Object Repository/Organizacion/Tipo Global/Crear y Crear Otro/Page_Daruma Software  Quality Manag/input_tq_global_typeabbr'
+
+2019-02-12 17:22:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-02-12 17:22:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-12 17:22:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Tipo Global/Crear y Crear Otro/Page_Daruma Software  Quality Manag/input_tq_global_typestate' is clicked on
+
+2019-02-12 17:22:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Tipo Global/Crear y Crear Otro/Page_Daruma Software  Quality Manag/input_tq_global_typestate' is clicked on
+
+2019-02-12 17:22:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-02-12 17:22:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-12 17:22:28 - [TEST_STEP][PASSED] - setText: Text 'Se establece para generar una prueba.' is set on object 'Object Repository/Organizacion/Tipo Global/Crear y Crear Otro/Page_Daruma Software  Quality Manag/textarea_tq_global_typenotes'
+
+2019-02-12 17:22:28 - [MESSAGE][PASSED] - Text 'Se establece para generar una prueba.' is set on object 'Object Repository/Organizacion/Tipo Global/Crear y Crear Otro/Page_Daruma Software  Quality Manag/textarea_tq_global_typenotes'
+
+2019-02-12 17:22:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-02-12 17:22:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-12 17:22:31 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2019-02-12 17:22:31 - [MESSAGE][WARNING] - Test object with id 'Object Repository/null' does not exist
+
+2019-02-12 17:22:31 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-02-12 17:22:31 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\Jessica\\Katalon Studio\\TallerHenao\\Reports\\Submodulo Tipo Global\\20190212_172116\\1550010151502.png]]]]></system-out>
+         <system-err><![CDATA[2019-02-12 17:21:46 - [TEST_CASE][FAILED] - Test Cases/Organizaciones/Tipo Global/Crear: Test Cases/Organizaciones/Tipo Global/Crear FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Organizaciones/Tipo Global/CrearOtro" classname="Test Cases/Organizaciones/Tipo Global/CrearOtro" status="PASSED">
+         <system-out><![CDATA[2019-02-12 17:22:31 - [TEST_CASE][PASSED] - Test Cases/Organizaciones/Tipo Global/CrearOtro: Test Cases/Organizaciones/Tipo Global/CrearOtro
+
+2019-02-12 17:22:32 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-12 17:22:32 - [TEST_CASE][PASSED] - Test Cases/Login/Logiin: Test Cases/Login/Logiin
+
+2019-02-12 17:22:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-12 17:22:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-12 17:22:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-12 17:22:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-12 17:22:41 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-12 17:22:41 - [TEST_STEP][PASSED] - setText: Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-12 17:22:41 - [MESSAGE][PASSED] - Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-12 17:22:41 - [TEST_STEP][PASSED] - setText: Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-12 17:22:41 - [MESSAGE][PASSED] - Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-12 17:22:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-12 17:22:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-12 17:22:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-12 17:22:45 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Organizaciones/IngresoModulo' successfully
+
+2019-02-12 17:22:46 - [TEST_CASE][PASSED] - Test Cases/Organizaciones/IngresoModulo: Test Cases/Organizaciones/IngresoModulo
+
+2019-02-12 17:22:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-12 17:22:47 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-12 17:22:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Page_Daruma Software  Quality Manag/btnModulos' is clicked on
+
+2019-02-12 17:22:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Page_Daruma Software  Quality Manag/btnModulos' is clicked on
+
+2019-02-12 17:22:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Page_Daruma Software  Quality Manag/a_Organizacin' is clicked on
+
+2019-02-12 17:22:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Page_Daruma Software  Quality Manag/a_Organizacin' is clicked on
+
+2019-02-12 17:22:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Page_/a_Tipo global' is clicked on
+
+2019-02-12 17:22:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Page_/a_Tipo global' is clicked on
+
+2019-02-12 17:22:49 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2019-02-12 17:22:59 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-12 17:22:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Organizaciones/IngresoModulo' successfully
+
+2019-02-12 17:22:59 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-02-12 17:23:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-12 17:23:02 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '$("a[href$='/app_mysql.php/accident/new ']").click();	' successfully
+
+2019-02-12 17:23:02 - [MESSAGE][PASSED] - Execute JavaScript '$("a[href$='/app_mysql.php/accident/new ']").click();	' successfully
+
+2019-02-12 17:23:02 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-02-12 17:23:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-12 17:23:05 - [TEST_STEP][PASSED] - setText: Text 'Prueba Auto' is set on object 'Object Repository/Organizacion/Tipo Global/Crear y Crear Otro/Page_Daruma Software  Quality Manag/input_tq_global_typename'
+
+2019-02-12 17:23:08 - [MESSAGE][PASSED] - Text 'Prueba Auto' is set on object 'Object Repository/Organizacion/Tipo Global/Crear y Crear Otro/Page_Daruma Software  Quality Manag/input_tq_global_typename'
+
+2019-02-12 17:23:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-02-12 17:23:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-12 17:23:11 - [TEST_STEP][PASSED] - setText: Text 'PCA' is set on object 'Object Repository/Organizacion/Tipo Global/Crear y Crear Otro/Page_Daruma Software  Quality Manag/input_tq_global_typeabbr'
+
+2019-02-12 17:23:11 - [MESSAGE][PASSED] - Text 'PCA' is set on object 'Object Repository/Organizacion/Tipo Global/Crear y Crear Otro/Page_Daruma Software  Quality Manag/input_tq_global_typeabbr'
+
+2019-02-12 17:23:11 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-02-12 17:23:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-12 17:23:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Tipo Global/Crear y Crear Otro/Page_Daruma Software  Quality Manag/input_tq_global_typestate' is clicked on
+
+2019-02-12 17:23:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Tipo Global/Crear y Crear Otro/Page_Daruma Software  Quality Manag/input_tq_global_typestate' is clicked on
+
+2019-02-12 17:23:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-02-12 17:23:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-12 17:23:17 - [TEST_STEP][PASSED] - setText: Text 'Se establece para generar una super prueba' is set on object 'Object Repository/Organizacion/Tipo Global/Crear y Crear Otro/Page_Daruma Software  Quality Manag/textarea_tq_global_typenotes'
+
+2019-02-12 17:23:17 - [MESSAGE][PASSED] - Text 'Se establece para generar una super prueba' is set on object 'Object Repository/Organizacion/Tipo Global/Crear y Crear Otro/Page_Daruma Software  Quality Manag/textarea_tq_global_typenotes'
+
+2019-02-12 17:23:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-02-12 17:23:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-12 17:23:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Tipo Global/Crear y Crear Otro/Page_Daruma Software  Quality Manag/Page_/input__save_and_add' is clicked on
+
+2019-02-12 17:23:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Tipo Global/Crear y Crear Otro/Page_Daruma Software  Quality Manag/Page_/input__save_and_add' is clicked on
+
+2019-02-12 17:23:20 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-02-12 17:23:25 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Organizaciones/Tipo Global/Editar" classname="Test Cases/Organizaciones/Tipo Global/Editar" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Organizacion/Tipo Global/Editar/Page_Daruma Software  Quality Manag/a_Prueba Auto' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Tipo Global/Editar/Page_Daruma Software  Quality Manag/a_Prueba Auto' located by 'By.xpath: //a[@href = '/app_mysql.php/global_type/9/edit' and (text() = 'Prueba Auto' or . = 'Prueba Auto')]' not found)"/>
+         <system-out><![CDATA[2019-02-12 17:23:25 - [TEST_CASE][FAILED] - Test Cases/Organizaciones/Tipo Global/Editar: Test Cases/Organizaciones/Tipo Global/Editar FAILED because (of) Unable to click on object 'Object Repository/Organizacion/Tipo Global/Editar/Page_Daruma Software  Quality Manag/a_Prueba Auto' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Tipo Global/Editar/Page_Daruma Software  Quality Manag/a_Prueba Auto' located by 'By.xpath: //a[@href = '/app_mysql.php/global_type/9/edit' and (text() = 'Prueba Auto' or . = 'Prueba Auto')]' not found)
+
+2019-02-12 17:23:26 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-12 17:23:26 - [TEST_CASE][PASSED] - Test Cases/Login/Logiin: Test Cases/Login/Logiin
+
+2019-02-12 17:23:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-12 17:23:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-12 17:23:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-12 17:23:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-12 17:23:36 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-12 17:23:36 - [TEST_STEP][PASSED] - setText: Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-12 17:23:37 - [MESSAGE][PASSED] - Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-12 17:23:37 - [TEST_STEP][PASSED] - setText: Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-12 17:23:37 - [MESSAGE][PASSED] - Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-12 17:23:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-12 17:23:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-12 17:23:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-12 17:23:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Organizaciones/IngresoModulo' successfully
+
+2019-02-12 17:23:40 - [TEST_CASE][PASSED] - Test Cases/Organizaciones/IngresoModulo: Test Cases/Organizaciones/IngresoModulo
+
+2019-02-12 17:23:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-12 17:23:42 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-12 17:23:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Page_Daruma Software  Quality Manag/btnModulos' is clicked on
+
+2019-02-12 17:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Page_Daruma Software  Quality Manag/btnModulos' is clicked on
+
+2019-02-12 17:23:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Page_Daruma Software  Quality Manag/a_Organizacin' is clicked on
+
+2019-02-12 17:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Page_Daruma Software  Quality Manag/a_Organizacin' is clicked on
+
+2019-02-12 17:23:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Page_/a_Tipo global' is clicked on
+
+2019-02-12 17:23:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Page_/a_Tipo global' is clicked on
+
+2019-02-12 17:23:44 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2019-02-12 17:23:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-12 17:23:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Organizaciones/IngresoModulo' successfully
+
+2019-02-12 17:23:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-02-12 17:23:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-12 17:23:57 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Organizacion/Tipo Global/Editar/Page_Daruma Software  Quality Manag/a_Prueba Auto' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Tipo Global/Editar/Page_Daruma Software  Quality Manag/a_Prueba Auto' located by 'By.xpath: //a[@href = '/app_mysql.php/global_type/9/edit' and (text() = 'Prueba Auto' or . = 'Prueba Auto')]' not found)
+
+2019-02-12 17:24:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Organizacion/Tipo Global/Editar/Page_Daruma Software  Quality Manag/a_Prueba Auto' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Tipo Global/Editar/Page_Daruma Software  Quality Manag/a_Prueba Auto' located by 'By.xpath: //a[@href = '/app_mysql.php/global_type/9/edit' and (text() = 'Prueba Auto' or . = 'Prueba Auto')]' not found)
+[[ATTACHMENT|C:\\Users\\Jessica\\Katalon Studio\\TallerHenao\\Reports\\Submodulo Tipo Global\\20190212_172116\\1550010268463.png]]]]></system-out>
+         <system-err><![CDATA[2019-02-12 17:23:25 - [TEST_CASE][FAILED] - Test Cases/Organizaciones/Tipo Global/Editar: Test Cases/Organizaciones/Tipo Global/Editar FAILED because (of) Unable to click on object 'Object Repository/Organizacion/Tipo Global/Editar/Page_Daruma Software  Quality Manag/a_Prueba Auto' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Tipo Global/Editar/Page_Daruma Software  Quality Manag/a_Prueba Auto' located by 'By.xpath: //a[@href = '/app_mysql.php/global_type/9/edit' and (text() = 'Prueba Auto' or . = 'Prueba Auto')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Organizaciones/Tipo Global/Eliminar" classname="Test Cases/Organizaciones/Tipo Global/Eliminar" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Organizacion/Tipo Global/Eliminar/Page_Daruma Software  Quality Manag/input_items' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Tipo Global/Eliminar/Page_Daruma Software  Quality Manag/input_items' located by 'By.xpath: //input[@type = 'checkbox' and @name = 'items[]' and @id = 'items_8']' not found)"/>
+         <system-out><![CDATA[2019-02-12 17:24:28 - [TEST_CASE][FAILED] - Test Cases/Organizaciones/Tipo Global/Eliminar: Test Cases/Organizaciones/Tipo Global/Eliminar FAILED because (of) Unable to click on object 'Object Repository/Organizacion/Tipo Global/Eliminar/Page_Daruma Software  Quality Manag/input_items' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Tipo Global/Eliminar/Page_Daruma Software  Quality Manag/input_items' located by 'By.xpath: //input[@type = 'checkbox' and @name = 'items[]' and @id = 'items_8']' not found)
+
+2019-02-12 17:24:29 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-12 17:24:29 - [TEST_CASE][PASSED] - Test Cases/Login/Logiin: Test Cases/Login/Logiin
+
+2019-02-12 17:24:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-12 17:24:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-12 17:24:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-12 17:24:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-12 17:24:37 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-12 17:24:37 - [TEST_STEP][PASSED] - setText: Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-12 17:24:37 - [MESSAGE][PASSED] - Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-12 17:24:37 - [TEST_STEP][PASSED] - setText: Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-12 17:24:37 - [MESSAGE][PASSED] - Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-12 17:24:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-12 17:24:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-12 17:24:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-12 17:24:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Organizaciones/IngresoModulo' successfully
+
+2019-02-12 17:24:40 - [TEST_CASE][PASSED] - Test Cases/Organizaciones/IngresoModulo: Test Cases/Organizaciones/IngresoModulo
+
+2019-02-12 17:24:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-12 17:24:42 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-12 17:24:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Page_Daruma Software  Quality Manag/btnModulos' is clicked on
+
+2019-02-12 17:24:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Page_Daruma Software  Quality Manag/btnModulos' is clicked on
+
+2019-02-12 17:24:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Page_Daruma Software  Quality Manag/a_Organizacin' is clicked on
+
+2019-02-12 17:24:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Page_Daruma Software  Quality Manag/a_Organizacin' is clicked on
+
+2019-02-12 17:24:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Page_/a_Tipo global' is clicked on
+
+2019-02-12 17:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Page_/a_Tipo global' is clicked on
+
+2019-02-12 17:24:44 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2019-02-12 17:24:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-12 17:24:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Organizaciones/IngresoModulo' successfully
+
+2019-02-12 17:24:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-02-12 17:24:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-12 17:24:57 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Organizacion/Tipo Global/Eliminar/Page_Daruma Software  Quality Manag/input_items' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Tipo Global/Eliminar/Page_Daruma Software  Quality Manag/input_items' located by 'By.xpath: //input[@type = 'checkbox' and @name = 'items[]' and @id = 'items_8']' not found)
+
+2019-02-12 17:25:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Organizacion/Tipo Global/Eliminar/Page_Daruma Software  Quality Manag/input_items' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Tipo Global/Eliminar/Page_Daruma Software  Quality Manag/input_items' located by 'By.xpath: //input[@type = 'checkbox' and @name = 'items[]' and @id = 'items_8']' not found)
+[[ATTACHMENT|C:\\Users\\Jessica\\Katalon Studio\\TallerHenao\\Reports\\Submodulo Tipo Global\\20190212_172116\\1550010328145.png]]]]></system-out>
+         <system-err><![CDATA[2019-02-12 17:24:28 - [TEST_CASE][FAILED] - Test Cases/Organizaciones/Tipo Global/Eliminar: Test Cases/Organizaciones/Tipo Global/Eliminar FAILED because (of) Unable to click on object 'Object Repository/Organizacion/Tipo Global/Eliminar/Page_Daruma Software  Quality Manag/input_items' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Tipo Global/Eliminar/Page_Daruma Software  Quality Manag/input_items' located by 'By.xpath: //input[@type = 'checkbox' and @name = 'items[]' and @id = 'items_8']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Organizaciones/Tipo Global/EliminarEditar" classname="Test Cases/Organizaciones/Tipo Global/EliminarEditar" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Organizacion/Tipo Global/Eliminar/Page_Daruma Software  Quality Manag (1)/input_items' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Tipo Global/Eliminar/Page_Daruma Software  Quality Manag (1)/input_items' located by 'By.xpath: //input[@type = 'checkbox' and @name = 'items[]' and @id = 'items_3']' not found)"/>
+         <system-out><![CDATA[2019-02-12 17:25:28 - [TEST_CASE][FAILED] - Test Cases/Organizaciones/Tipo Global/EliminarEditar: Test Cases/Organizaciones/Tipo Global/EliminarEditar FAILED because (of) Unable to click on object 'Object Repository/Organizacion/Tipo Global/Eliminar/Page_Daruma Software  Quality Manag (1)/input_items' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Tipo Global/Eliminar/Page_Daruma Software  Quality Manag (1)/input_items' located by 'By.xpath: //input[@type = 'checkbox' and @name = 'items[]' and @id = 'items_3']' not found)
+
+2019-02-12 17:25:28 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-12 17:25:28 - [TEST_CASE][PASSED] - Test Cases/Login/Logiin: Test Cases/Login/Logiin
+
+2019-02-12 17:25:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-02-12 17:25:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-12 17:25:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-12 17:25:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-12 17:25:36 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-12 17:25:36 - [TEST_STEP][PASSED] - setText: Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-12 17:25:37 - [MESSAGE][PASSED] - Text 'tester4' is set on object 'Object Repository/Login/txtUser'
+
+2019-02-12 17:25:37 - [TEST_STEP][PASSED] - setText: Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-12 17:25:37 - [MESSAGE][PASSED] - Text 'c4m1n0' is set on object 'Object Repository/Login/txtPass'
+
+2019-02-12 17:25:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-12 17:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnIngresar' is clicked on
+
+2019-02-12 17:25:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Logiin' successfully
+
+2019-02-12 17:25:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Organizaciones/IngresoModulo' successfully
+
+2019-02-12 17:25:40 - [TEST_CASE][PASSED] - Test Cases/Organizaciones/IngresoModulo: Test Cases/Organizaciones/IngresoModulo
+
+2019-02-12 17:25:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-12 17:25:42 - [MESSAGE][PASSED] - Navigate to 'http://54.203.130.100:8106/app_mysql.php/' successfully
+
+2019-02-12 17:25:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Page_Daruma Software  Quality Manag/btnModulos' is clicked on
+
+2019-02-12 17:25:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Page_Daruma Software  Quality Manag/btnModulos' is clicked on
+
+2019-02-12 17:25:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Page_Daruma Software  Quality Manag/a_Organizacin' is clicked on
+
+2019-02-12 17:25:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Page_Daruma Software  Quality Manag/a_Organizacin' is clicked on
+
+2019-02-12 17:25:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Organizacion/Page_/a_Tipo global' is clicked on
+
+2019-02-12 17:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Organizacion/Page_/a_Tipo global' is clicked on
+
+2019-02-12 17:25:44 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2019-02-12 17:25:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-12 17:25:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Organizaciones/IngresoModulo' successfully
+
+2019-02-12 17:25:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-02-12 17:25:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-12 17:25:57 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Organizacion/Tipo Global/Eliminar/Page_Daruma Software  Quality Manag (1)/input_items' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Tipo Global/Eliminar/Page_Daruma Software  Quality Manag (1)/input_items' located by 'By.xpath: //input[@type = 'checkbox' and @name = 'items[]' and @id = 'items_3']' not found)
+
+2019-02-12 17:26:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Organizacion/Tipo Global/Eliminar/Page_Daruma Software  Quality Manag (1)/input_items' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Tipo Global/Eliminar/Page_Daruma Software  Quality Manag (1)/input_items' located by 'By.xpath: //input[@type = 'checkbox' and @name = 'items[]' and @id = 'items_3']' not found)
+[[ATTACHMENT|C:\\Users\\Jessica\\Katalon Studio\\TallerHenao\\Reports\\Submodulo Tipo Global\\20190212_172116\\1550010388117.png]]]]></system-out>
+         <system-err><![CDATA[2019-02-12 17:25:28 - [TEST_CASE][FAILED] - Test Cases/Organizaciones/Tipo Global/EliminarEditar: Test Cases/Organizaciones/Tipo Global/EliminarEditar FAILED because (of) Unable to click on object 'Object Repository/Organizacion/Tipo Global/Eliminar/Page_Daruma Software  Quality Manag (1)/input_items' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organizacion/Tipo Global/Eliminar/Page_Daruma Software  Quality Manag (1)/input_items' located by 'By.xpath: //input[@type = 'checkbox' and @name = 'items[]' and @id = 'items_3']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-12 17:21:19 - [TEST_SUITE][FAILED] - Submodulo Tipo Global: Test Cases/Organizaciones/Tipo Global/Crear FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2019-02-12 17:21:19 - [TEST_SUITE][FAILED] - Submodulo Tipo Global: Test Cases/Organizaciones/Tipo Global/Crear FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>

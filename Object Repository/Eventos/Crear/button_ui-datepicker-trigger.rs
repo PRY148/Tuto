@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_ui-datepicker-trigger</name>
+   <tag></tag>
+   <elementGuidId>e4865e1b-dbcb-463a-a957-d434649b0063</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-datepicker-trigger</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tq_form&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 col-md-6 opk&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;box box-skin box-solid&quot;]/div[@class=&quot;box-body&quot;]/div[@class=&quot;container-materialize&quot;]/div[2]/div[@class=&quot;group&quot;]/button[@class=&quot;ui-datepicker-trigger&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
